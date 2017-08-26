@@ -1,0 +1,96 @@
+Information:
+
+
+The Board: 
+When claiming or attacking a square knowledge of the board is very helpful.
+  A  B  C  D  E  F
+1|A1 B1 C1 D1 E1 F1
+2|A2 B2 C2 D2 E2 F2
+3|A3 B3 C3 D3 E3 F3
+4|A4 B4 C4 D4 E4 F4
+5|A5 B5 C5 D5 E5 F5
+6|A6 B6 C6 D6 E6 F6
+
+Claiming a square is as simple as this - /claim <square identifier>
+An example would be /claim B1 as a first move
+
+Attacking a square is also used in the same way - /attack <square identifier>
+An example would be /attack F1 for a knockout on the Parrot Tribe
+
+Keep in mind that you cannot claim a square that is occupied and you cannot attack an empty square.
+
+It's always smart to expand logically. Try always using squares as buffers rather than important pieces of land,
+because by doing so you allow for easier developing. 
+
+Although it's possible, here is an example of the odds that you'll have if you and the opponent have equal power:
+
+LUCK:
+-3 = LOSE 100%
+-2 = LOSE 100%
+-1 = LOSE 100%
+0 = LOSE 100%
+1 = LOSE 67%
+2 = LOSE 67%
+3 = LOSE 33%
+(Ties are always losses)
+
+Then, we take [0 + 66 + 66]/7 to find the winning percentage.
+132/7 ≈ 19%
+
+So you'd better get a better army!
+
+Players:
+Parrot usually plays with moderation. They have a mix of training, claiming, and developing themselves. They traditionally win from combo.
+Macaw usually plays aggresively. They train and claim more than they develop but maintain enough to keep alive. They traditionally win from conquering.
+Eclectus plays peacefully. They enjoy developing more than fighting, and traditionally win from a high GDP.
+
+Command Information:
+Ending the move:
+Simply don't do anything on the move, like a "skip turn."
+
+Conceding:
+Quit the game!
+
+Attacking:
+Attack another square that has been claimed by another power. Depending on
+the military power that you have in comparison to theirs with a few random
+tweaks, you may or may not take the square.
+
+You can be given anything from a disadvantage of three to an advantage of three, while the opponent can be given anything from no advatage to two advantage.
+
+After the battle, if you win, you lose the remainder of your troops and theirs, while they lose the same but keep two.
+If you lose, you lose the remainder and one while the opponent loses the remainder but gains one from excited new recruits.
+If there is a stalemate each person loses one. The square does not change hands.
+
+Remember, the loser of the battle will suffer 1K on their GDP. In a stalemate each side will lose 1K.
+
+WARNING: AN ILLEGAL MOVE WILL BE PENALIZED BY HAVING THE TURN LOST.
+Training:
+Training troops will boost your military power, making it more likely that you will
+capture a square that you are going at. It also helps you on the defensive.
+
+Developing:
+Tech is a risky investment! You could go big and grow 5K on your GDP, or it could fail, benefiting zero. It's more likely to end up in between.
+Education is a solid investment. Depending on the kids grades, you could earn between 1K and 3K.
+Infrastructure always works out, but doesn't make a ton. It only gains 2K.
+
+Strategies:
+One-Block Explosion:
+By not wasting any turns claiming, you can have a robust military and strong economy. However, this makes you an easy target,
+and if another tribe gets ahead early, you're basically dead.
+Safe Gambling:
+Alternate between education, train, claim, until you have a combo victory.
+Militaristic Expansion:
+Prioritize military over all, and favor it: eg. train, train, claim, dev, claim, train...
+
+Tips:
+ - Play tech at the start! You can't lose that much and it's better to get off on a strong footing.
+ - If you see Macaw coming near you, train for the next few turns.
+ - If your border begins to build up, training would be nice, because if
+ the other player has a decent military they could sweep the border and 
+ take out multiple squares in quick sucession
+ - Be smart! Find a goal at the start and keep it unless another tribe has
+ already been screwed over and you can capitalize on it.
+ - Skipping turns is not advisable. All it does is wastes time that could be used for 
+ development and troops, so you may as well just do it. 
+ - Have fun!
