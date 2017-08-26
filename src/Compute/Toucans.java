@@ -1352,9 +1352,6 @@ public class Toucans implements MouseListener, ActionListener {
 
 	// int i < x.length; so on
 	public boolean moveIsLegal(int square, int team) {
-
-		// !!!!! DO NOT EDIT THIS CODE! IT HAS BEEN PROVEN TO WORK. !!!!
-
 		// Find Options for attacking - go through for() loop to determine if
 		// the move is legal
 		// Go backwards! Rework the unit to find all of the neighbors, then take
