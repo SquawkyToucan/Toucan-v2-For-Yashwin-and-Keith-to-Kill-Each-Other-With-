@@ -135,7 +135,7 @@ public class Toucans implements MouseListener, ActionListener {
 			loadImages();
 			updateGraphics();
 			String move = JOptionPane.showInputDialog(
-					"Action to Perform:\n- /claim <row (letter)><column (number)> - Claim a square\n- /attack <row (letter)><column (number)> - Attack a claimed square\n- /develop <infrastructure, tech, education> - Will boost output\n- /train - Train troops\n- /endmove - End move\n- /help - See the rules and instructions\n- /concede - Quit");
+					"TOUCAN: Action to Perform:\n- /claim <row (letter)><column (number)> - Claim a square\n- /attack <row (letter)><column (number)> - Attack a claimed square\n- /develop <infrastructure, tech, education> - Will boost output\n- /train - Train troops\n- /endmove - End move\n- /help - See the rules and instructions\n- /concede - Quit");
 			if (move.equals("/concede")) {
 				concede();
 			}
@@ -357,7 +357,7 @@ public class Toucans implements MouseListener, ActionListener {
 			loadImages();
 			updateGraphics();
 			String move = JOptionPane.showInputDialog(
-					"Action to Perform:\n- /claim <row (letter)><column (number)> - Claim a square\n- /attack <row (letter)><column (number)> - Attack a claimed square\n- /develop <infrastructure, tech, education> - Will boost output\n- /train - Train troops\n- /endmove - End move\n- /help - See the rules and instructions\n- /concede - Quit");
+					"PARROT: Action to Perform:\n- /claim <row (letter)><column (number)> - Claim a square\n- /attack <row (letter)><column (number)> - Attack a claimed square\n- /develop <infrastructure, tech, education> - Will boost output\n- /train - Train troops\n- /endmove - End move\n- /help - See the rules and instructions\n- /concede - Quit");
 			if (move.equals("/concede")) {
 				concede();
 			}
@@ -577,7 +577,7 @@ public class Toucans implements MouseListener, ActionListener {
 			loadImages();
 			updateGraphics();
 			String move = JOptionPane.showInputDialog(
-					"Action to Perform:\n- /claim <row (letter)><column (number)> - Claim a square\n- /attack <row (letter)><column (number)> - Attack a claimed square\n- /develop <infrastructure, tech, education> - Will boost output\n- /train - Train troops\n- /endmove - End move\n- /help - See the rules and instructions\n- /concede - Quit");
+					"MACAW: Action to Perform:\n- /claim <row (letter)><column (number)> - Claim a square\n- /attack <row (letter)><column (number)> - Attack a claimed square\n- /develop <infrastructure, tech, education> - Will boost output\n- /train - Train troops\n- /endmove - End move\n- /help - See the rules and instructions\n- /concede - Quit");
 			if (move.equals("/concede")) {
 				concede();
 			}
@@ -798,7 +798,7 @@ public class Toucans implements MouseListener, ActionListener {
 			loadImages();
 			updateGraphics();
 			String move = JOptionPane.showInputDialog(
-					"Action to Perform:\n- /claim <row (letter)><column (number)> - Claim a square\n- /attack <row (letter)><column (number)> - Attack a claimed square\n- /develop <infrastructure, tech, education> - Will boost output\n- /train - Train troops\n- /endmove - End move\n- /help - See the rules and instructions\n- /concede - Quit");
+					"DODO: Action to Perform:\n- /claim <row (letter)><column (number)> - Claim a square\n- /attack <row (letter)><column (number)> - Attack a claimed square\n- /develop <infrastructure, tech, education> - Will boost output\n- /train - Train troops\n- /endmove - End move\n- /help - See the rules and instructions\n- /concede - Quit");
 			if (move.equals("/concede")) {
 				concede();
 			}
