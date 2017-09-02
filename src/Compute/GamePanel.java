@@ -32,7 +32,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener, Mo
 		g.fillRect(0, 0, 600, 900);
 		g.setColor(Color.WHITE);
 		g.setFont(big);
-		g.drawString("Settlement", 150, 100);
+		g.drawString("Level Two Project", 100, 100);
 		g.setFont(small);
 		g.drawString("Click to Start", 175, 300);
 	}
