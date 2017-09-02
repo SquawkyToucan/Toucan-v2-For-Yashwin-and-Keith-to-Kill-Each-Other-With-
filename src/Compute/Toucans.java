@@ -37,8 +37,8 @@ public class Toucans implements MouseListener, ActionListener {
 	// Conceding/giving up - This is the command '/concede'
 	boolean toucanIsAlive = true;
 	boolean parrotIsAlive = true;
-	boolean macawIsAlive = true;
-	boolean dodoIsAlive = true;
+	boolean macawIsAlive = false;
+	boolean dodoIsAlive = false;
 	JButton[] buttons = new JButton[36];
 	int turnOf = -1;
 	int turns = 0;
