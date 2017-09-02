@@ -418,7 +418,17 @@ public class Toucans implements MouseListener, ActionListener {
 				if (move.equalsIgnoreCase("/claim C6") && status[16] == 2) {
 					// Exceptions for things that are throwing errors
 					status[17] = 2;
-				} else if (moveIsLegal(numToCheck, 2)) {
+					check();
+				}
+				else if (move.equalsIgnoreCase("/claim F5") && status[35] == 2) {
+					status[34] = 2;
+					check();
+				}
+				else if (move.equalsIgnoreCase("/claim E6") && status[35] == 2) {
+					status[29] = 2;
+					check();
+				}
+				else if (moveIsLegal(numToCheck, 2)) {
 					if (status[numToCheck] == 0) {
 						status[numToCheck] = 2;
 						System.out.println("Square claimed successfully");
