@@ -636,10 +636,10 @@ public class Toucans implements MouseListener, ActionListener {
 					numToCheck = 29 + notChar;
 				}
 				// Claim or check on
-				if (move.equalsIgnoreCase("/claim C6") && status[16] == 1) {
+				if (move.equalsIgnoreCase("/claim C6") && status[16] == 3) {
 					// Exceptions for things that are throwing errors
-					status[17] = 1;
-				} else if (moveIsLegal(numToCheck, 1)) {
+					status[17] = 3;
+				} else if (moveIsLegal(numToCheck, 3)) {
 					if (status[numToCheck] == 0) {
 						status[numToCheck] = 3;
 						System.out.println("Square claimed successfully");
@@ -860,9 +860,9 @@ public class Toucans implements MouseListener, ActionListener {
 				if (move.equalsIgnoreCase("/claim C6") && status[16] == 4) {
 					// Exceptions for things that are throwing errors
 					status[17] = 4;
-				} else if (moveIsLegal(numToCheck, 1)) {
+				} else if (moveIsLegal(numToCheck, 4)) {
 					if (status[numToCheck] == 0) {
-						status[numToCheck] = 1;
+						status[numToCheck] = 4;
 						System.out.println("Square claimed successfully");
 						check();
 					} else {
