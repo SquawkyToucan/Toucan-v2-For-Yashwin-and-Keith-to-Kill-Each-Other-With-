@@ -1357,6 +1357,7 @@ public class Toucans implements MouseListener, ActionListener {
 		// Go backwards! Rework the unit to find all of the neighbors, then take
 		// those and work it out
 		int[] validMovesForAttack = determineNeighbors(square);
+		//yee
 		for (int i = 0; i < validMovesForAttack.length; i++) {
 			if (status[validMovesForAttack[i]] == team) {
 				// Move was legal!!! Attacker came from square that borders it
